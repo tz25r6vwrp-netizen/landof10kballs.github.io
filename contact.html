@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order | Land of 10K Balls</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@700;900&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0c1411; color: #e8f5e9; font-family: 'Inter', sans-serif; }
+    .header { background: linear-gradient(180deg, #0f1f1a 0%, #0c1411 100%); padding: 20px; border-bottom: 3px solid #166534; }
+    .logo { font-family: 'Outfit', sans-serif; color: #22c55e; font-size: 24px; font-weight: 900; text-decoration: none; display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+    .logo::before { content: "🌲"; font-size: 28px; }
+    .tagline { color: #86efac; font-size: 11px; text-transform: uppercase; letter-spacing: 2px; margin: -8px 0 16px 36px; opacity: 0.7; }
+    .nav { display: flex; flex-wrap: wrap; gap: 20px; }
+    .nav a { color: #d1fae5; text-decoration: none; font-size: 14px; font-weight: 600; padding: 6px 0; border-bottom: 2px solid transparent; }
+    .nav a:hover { color: #22c55e; border-bottom-color: #22c55e; }
+    .container { padding: 32px 20px; max-width: 650px; margin: 0 auto; }
+    .hero { text-align: center; margin-bottom: 32px; }
+    .hero h1 { font-family: 'Outfit', sans-serif; font-size: 36px; font-weight: 900; margin-bottom: 12px; background: linear-gradient(135deg, #22c55e 0%, #3b82f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .hero p { color: #bbf7d0; font-size: 15px; }
+    .card { background: linear-gradient(135deg, #1a2e26 0%, #0f1f1a 100%); border-radius: 16px; padding: 24px; margin-bottom: 24px; border: 1px solid #1e3a2e; }
+    .card h2 { font-family: 'Outfit', sans-serif; font-size: 20px; font-weight: 800; margin-bottom: 16px; color: #f0fdf4; }
+    .card ol { margin-left: 20px; color: #a7f3d0; line-height: 1.8; }
+    .card ol li { margin-bottom: 8px; }
+    .btn { background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%); color: #0c1411; border: none; padding: 16px; width: 100%; border-radius: 10px; font-weight: 800; font-size: 16px; text-decoration: none; display: block; text-align: center; margin: 12px 0; }
+    .btn::before { content: "💳 "; }
+    .info-box { background: rgba(34, 197, 94, 0.1); border: 1px solid #22c55e; border-radius: 12px; padding: 16px; margin: 20px 0; }
+    .info-box p { color: #86efac; font-size: 14px; margin: 0; line-height: 1.6; }
+    .info-box p::before { content: "🚚 "; font-size: 18px; }
+    .grading h3 { color: #4ade80; font-size: 16px; margin: 20px 0 8px; font-weight: 700; }
+    .grading p { color: #a7f3d0; font-size: 14px; line-height: 1.6; margin-bottom: 12px; }
+    .footer-note { text-align: center; color: #6ee7b7; font-size: 13px; margin-top: 32px; }
+    .footer { margin-top: 48px; padding: 32px 20px; text-align: center; border-top: 1px solid #1e3a2e; color: #6ee7b7; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <a href="index.html" class="logo">LAND OF 10K BALLS</a>
+    <div class="tagline">Minnesota's Lake Ball Specialists</div>
+    <div class="nav">
+      <a href="about.html">About</a>
+      <a href="custom.html">Custom</a>
+      <a href="bulk.html">Bulk</a>
+      <a href="gallery.html">Photos</a>
+      <a href="contact.html">Order</a>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="hero">
+      <h1>Order & Shipping</h1>
+      <p>Secure checkout powered by Stripe</p>
+    </div>
+
+    <div class="info-box">
+      <p><strong>We ship nationwide from Mendota Heights, MN.</strong> Free shipping on orders of 5+ dozen. Orders ship within 1-2 business days.</p>
+    </div>
+
+    <div class="card">
+      <h2>How to Order:</h2>
+      <ol>
+        <li>Click "Buy Now" on any product on the homepage</li>
+        <li>Select ball type + quantity in Stripe checkout</li>
+        <li>Pay securely with card, Apple Pay, or Google Pay</li>
+        <li>We'll ship to your address — tracking sent via email</li>
+      </ol>
+      <a href="index.html" class="btn">Shop Golf Balls</a>
+    </div>
+
+    <div class="card">
+      <h2>Grading Scale</h2>
+      <div class="grading">
+        <h3>Premium</h3>
+        <p>Near-mint. No scuffs, maybe light logo. Tour balls from private MN courses.</p>
+        
+        <h3>Mid Tier</h3>
+        <p>Light player marks. No cuts. 100% playable. Great for weekend rounds.</p>
+        
+        <h3>Value</h3>
+        <p>Discolored or scuffed. 100% playable. Perfect for practice or water holes.</p>
+      </div>
+    </div>
+
+    <div class="footer-note">
+      All balls are hand-washed and inspected. Not for resale.<br>
+      Questions? Email: landof10kballs@gmail.com
+    </div>
+  </div>
+
+  <div class="footer">Proudly serving Minnesota golfers since 2026</div>
+</body>
+</html>
